@@ -8,3 +8,4 @@ class Products(Base):
     name = Column(String(255))
     price = Column(Integer)
     stock_qty = Column(Integer)
+    hsn = Column(String(255))
